@@ -1,0 +1,324 @@
+body{
+    text-align: center;
+    margin:0;
+    font-family: 'Merriweather', serif;
+  
+  }
+  
+  
+  .top-part{
+    background-color: #d2f3e0;
+    position: relative;
+    padding-top: 150px;
+  
+  }
+  
+  .uyi, .js, .python{
+    height:150px;
+    border-radius: 50%;
+  
+  }
+
+  .swift{
+    height:150px;
+
+  }
+
+
+
+  h1{
+  
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    color: #009975;
+  
+  }
+  
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #009975;
+    font-size:2.5rem;
+  
+  }
+  
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #009975;
+  
+  }
+  
+  
+  
+  .first{
+    color:#009975;
+    font-weight: normal;
+  }
+  
+  .hello, .skill-row, .contact-me {
+    width: 50%;
+  
+    margin: 100px auto;
+  }
+  
+  
+  hr{
+  
+    border-style: none;
+    background-color: white;
+    border-top-style: dotted;
+    border-width: 6px;
+    border-color: #dadddf;
+    width: 4%;
+  
+  }
+  
+  .cloud-1{
+    position: absolute;
+    top: 200px;
+    right: 210px;
+  
+  
+  }
+  
+  .cloud-2{
+    position: absolute;
+    bottom: 340px;
+    left: 230px;
+  
+  
+  }
+  .js, .swift{
+    float: left;
+    margin-right: 20px;
+  }
+  .python{
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .pro, .last-last{
+    text-decoration: underline;
+  }
+  
+  .bottom-container{
+    background-color:#d2f3e0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .footer-link{
+    width: 150px;
+    display: inline-block;
+  }
+  
+  a, Link{
+    color:#009975;
+  }
+  
+  a:hover, Link:hover{
+    color: white;
+  
+  }
+  .bye{
+    padding-bottom: 50px;
+  }
+  .last{
+    color:#009975;
+    font-size: 12px;
+  }
+  .btn{
+    background-color: #009975; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d2f3e0;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+  
+  
+  }
+  .top-face{
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+  
+  }
+  li{
+  
+  float: left;
+  
+  
+  }
+  
+  li a, Li Link{
+    display: block;
+    color: #009975;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  
+  
+  }
+  
+  li a:hover, li Link:hover{
+    background-color: green;
+    text-decoration: none;
+  
+  }
+
+/* CSS FLOAT Form*/
+
+form{
+  padding-left: 25%;
+}
+
+.input-group {
+  position: relative;
+  margin: 40px 0 20px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #009975;
+}
+
+.bar {
+  position: relative;
+  display:block;
+  width: 60%;
+}
+
+.bar:before,
+.bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #009975;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* animations */
+@-webkit-keyframes inputHighlighter {
+  from { background: #009975; }
+  to   { width: 0; background: transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background: #009975; }
+  to   { width: 0; background: transparent; }
+}
+@keyframes inputHighlighter {
+  from { background: #009975; }
+  to   { width: 0; background: transparent; }
+}
+  
+
+button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #009975;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+  button:hover {
+      background-color: #009975;
+      box-shadow: 0px 15px 20px rgb(0, 168, 150);
+      color: #fff;
+      transform: translateY(-7px);
+  }
+
+  /* end*/
+
+  .buttonPosition{
+    padding-right: 33%;
+  }
+
+  .contactBody{
+  }

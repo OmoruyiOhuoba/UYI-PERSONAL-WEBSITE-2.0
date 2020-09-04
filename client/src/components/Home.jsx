@@ -6,19 +6,15 @@ import MyAvatar from "../assets/myAvatar.png";
 import Python from "../assets/python.jpeg";
 import Swift from "../assets/swift.jpeg";
 import UyiFace from "../assets/uyi-face.JPG";
-import {Link} from "react-router-dom";
+import NavBar from "./Layout/NavBar";
 
 const Home = () => {
     return (
-        <body>
-    <div className="top-part">
-    <ul>
-      <li><a href="#about" >About</a></li>
-      <li><Link to="/work" >Work</Link></li>
-      <li><Link to="/contact" >Contact</Link></li>
-    </ul>
+        <div>
+    <div className="top-part" id="uyi">
+    <NavBar />
     <img alt="cloud" className="cloud-1" src={Cloud} />
-    <img src={MyAvatar} className="top-face" alt="top-face" />
+    <a href="/#about" ><img src={MyAvatar} className="top-face" alt="top-face" /></a>
       <h1> I'm Uyi.</h1>
     <p className="first">a <span className="pro">pro</span>grammer</p>
     <img alt="cloud-2" className="cloud-2" src={Cloud} />
@@ -39,7 +35,7 @@ const Home = () => {
        <div className="skill-row">
          <img className="js" src={JsImage} alt="javascript" />
          <h3>Javascript</h3>
-         <p>I live the best of both worlds by developing front-end web apps and also implement the backend logic for the application's server and database</p>
+         <p>I live the best of both worlds by developing beautiful front-end web apps and also implementing the sustainablebackend logic for the application's server and database</p>
        </div>
        <div className="skill-row">
          <img className="python" src={Python} alt="python" />
@@ -66,7 +62,7 @@ const Home = () => {
      </div>
    </div>
 
-  </body>
+  </div>
     )
 
 }

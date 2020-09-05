@@ -78,7 +78,7 @@ const Portfolio = () => {
           <h3 className="white">Bloombank </h3>  
           <h4 className="white-slim">Web Design | Front end | Back end</h4> 
             <br/>
-            <h4 className="white-slim"> I used a formal user-interface design for this fullstack web application called Bloombank to allow users bank online.</h4> 
+            <h4 className="white-slim"> I used a formal user-interface design for this fullstack web application called Bloombank which allows users bank online.</h4> 
           <br/>
               <h4 className="white-slim"> <a className="white hov" href=""><u>view website</u></a> | <a className="white hov" href="https://github.com/OmoruyiOhuoba/BLOOMBANK-BANKING-WEB-APP"><u>view code</u></a> </h4>        
 

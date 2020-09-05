@@ -8,6 +8,7 @@ import Swift from "../assets/swift.jpeg";
 import UyiFace from "../assets/uyi-face.JPG";
 import NavBar from "./Layout/NavBar";
 
+
 const Home = () => {
     return (
         <div>
@@ -35,17 +36,17 @@ const Home = () => {
        <div className="skill-row">
          <img className="js" src={JsImage} alt="javascript" />
          <h3>Javascript</h3>
-         <p>I live the best of both worlds by developing beautiful front-end web apps and also implementing the sustainablebackend logic for the application's server and database</p>
+         <p>I live the best of both worlds by developing beautiful front end websites and also implementing the sustainable back end logic for the software's server and database.</p>
        </div>
        <div className="skill-row">
          <img className="python" src={Python} alt="python" />
          <h3>Python</h3>
-         <p>I love creating algorithms and programmes for Artificial Intelligence software</p>
+         <p>I love creating algorithms and programmes for Artificial Intelligence software.</p>
        </div>
        <div className="skill-row">
          <img className="swift" src={Swift} alt="javascript" />
          <h3>Swift</h3>
-         <p>I programme mobile applications ranging from augmented reality applications to 2D games and commercial apps for iOS devices</p>
+         <p>I programme mobile applications ranging from Augmented Reality applications and 2D games to commercial apps for iOS devices.</p>
        </div>
      </div>
      <br />
@@ -54,7 +55,14 @@ const Home = () => {
        <h2>Get In Touch.</h2>
        <h3>I'm currently available for freelance work.</h3>
        <p>If you need to get any project done, I'm just a click away.</p>
+       <p>Hire me today to create your personal or commercial website, mobile app or AI software.</p>
+       <p></p>
+<br/>
+<br/>
+       <a href="/contact" className="btn contact-hover">CONTACT ME</a>    
 
+
+        
        <br />
 
        <h1 className="bye">Bye.</h1>

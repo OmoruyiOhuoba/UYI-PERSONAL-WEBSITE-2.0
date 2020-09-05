@@ -42,7 +42,7 @@ body{
   
   }
   
-  h3{
+  h3, h4, h5{
     font-family: 'Montserrat', sans-serif;
     color: #009975;
   
@@ -320,6 +320,13 @@ button {
     padding-right: 33%;
   }
 
+
+  .web{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
  /* media queries */
  @media only screen and (max-width: 1150px){
   input {
@@ -357,6 +364,21 @@ button {
  
 
  }
+
+ @media only screen and (max-width: 1000px){
+  img.palm-tree-1{
+  
+    right: 10px;
+
+ }
+ img.palm-tree-2{
+  
+  left: 10px;
+
+}
+
+
+}
 
  @media only screen and (max-width: 797px){
   .cloud-1{
@@ -403,6 +425,11 @@ button {
     left: 40px;
   }
 
+  img.top-face{
+    left: 10px;
+
+  }
+
 
 }
 
@@ -415,6 +442,19 @@ button {
     width: 20%;
     bottom: 250px;
   }
+
+  img.palm-tree-1{
+  
+    right: 0px;
+
+ }
+ img.palm-tree-2{
+  
+  left: 0px;
+
+}
+
+
 
 
 }
@@ -430,10 +470,7 @@ button {
     bottom: 250px;
   }
 
-  img.top-face{
-    left: 20px;
-
-  }
+ 
 /*
   .navigationBar .navnav{display: none;}
 
@@ -475,6 +512,62 @@ ul{
 
 }
 
+
+
+/*main code for pics*/
+.webImg{
+  height: 100%;
+  object-fit: cover;
+}
+
+
+  .web{
+    object-fit: cover;
+    width: 100%;
+ 
+  }
+
+
+  @media only screen and (max-width: 577px){
+    img.palm-tree-1{
+  
+      right: 0px;
+  
+   }
+   img.palm-tree-2{
+    
+    left: 0px;
+  
+  }
+
+  .web, .portfolio-top, .portfolio-p, .contact-me, .bottom-container{
+    object-fit: cover;
+    width: 100%;
+ 
+  }
+
+  .webImg{
+    height: 100%;
+    object-fit: cover;
+  }
+    
+    }
+  
+
+    @media only screen and (max-width: 555px){
+      img.palm-tree-1{
+  
+        width: 40%;
+    
+     }
+     img.palm-tree-2{
+      
+      width: 40%;
+    
+    }
+      
+      }
+
 @media only screen and (max-width: 547px){
   .cloud-1{
     width: 20%;
@@ -489,6 +582,20 @@ ul{
     width: 90%;
   
     margin: 100px auto;
+  }
+
+  h1{
+    font-size: 4.625em;
+  }
+
+  img.palm-tree-1{
+    top: 147.5px;
+    height: 200px;
+  }
+  img.palm-tree-2{
+    top: 147.5px;
+    height: 200px;
+
   }
   
   }
@@ -506,8 +613,43 @@ ul{
   .footer-link{
     width: 100px;
   }
+}
 
+  @media only screen and (max-width: 455px){
+    img.palm-tree-1{
+      width: 30%;
   
+   }
+   img.palm-tree-2{
+    
+    width: 30%;
+  
+  }
+  
+  
+  }
+
+
+  @media only screen and (max-width: 421px){
+ 
+
+ .webImg{
+  margin-right: 0;
+   object-fit: fill;
+   height: 100%;
+   width: 95%;
+ }
+
+ .web{
+   margin: 0;
+   object-fit: cover;
+   height: 100%;
+ }
+
+ img.top-face{
+  width: 50px;
+  top: 40px;
+}
   
   }
 
@@ -561,15 +703,35 @@ ul{
     
     }
 
-    @media only screen and (max-width: 380px){
-      .cloud-1{
-        width: 25%;
-       }
-    
-      .cloud-2{
-        width: 25%;
-        bottom: 155px;
-      }
+
+
+  @media only screen and (max-width: 380px){
+    .cloud-1{
+      width: 25%;
+     }
+  
+    .cloud-2{
+      width: 25%;
+      bottom: 155px;
+    }
+
+     h1{
+  font-size: 3.625em;
+}
+
+img.palm-tree-1{
+  top: 147.5px;
+  height: 177px;
+}
+img.palm-tree-2{
+  top: 147.5px;
+  height: 177px;
+
+}
+
+li a, li Link{
+  font-size: 12px;
+}
     
   
       
@@ -586,19 +748,40 @@ ul{
         bottom: 155px;
       }
     
-      img.top-face{
-        top: 110px;
-      }
+    
 
       .footer-link{
         width: 80px;
       }
     
+    
   
       
       }
 
+      @media only screen and (max-width: 290px){
+      img.top-face{
+        width: 25px;
+        top: 50px;
+      }
+       
+      h1{
+        font-size: 2.625em;
 
+      }
+        
+
+img.palm-tree-1{
+  top: 147.5px;
+  height: 153px;
+}
+img.palm-tree-2{
+  top: 147.5px;
+  height: 153px;
+
+}
+        
+        }
 
       @media only screen and (max-width: 281px){
         .cloud-1{
@@ -626,19 +809,50 @@ ul{
           width: 22%;
           bottom: 130px;
         }
+
+        li a, li Link{
+          font-size: 10px;
+        }
+            
+
       
         
         
         }
 
-        .work-top{
+        @media only screen and (min-height: 830px){
+     
+          .bottom-container{
+          margin-top: 534px;
+
+          }
+
+       
+          
+          }
+
+        .portfolio-top{
           background-color: #d2f3e0;
           position: relative;
-          padding-top: 150px;
-          padding-bottom: 40px;
+          padding-top: 80px;
+          padding-bottom: 110px;
         }
 
-        .work-p{
+        .palm-tree-1{
+          position: absolute;
+          top: 152px;
+          height: 220px;
+          right: 155px;
+        }
+
+        .palm-tree-2{
+          position: absolute;
+          top: 152px;
+          height: 220px;
+          left: 155px;
+        }
+
+        .portfolio-p{
           width: 40%;
           margin: 0 auto;
           position: relative;
@@ -648,12 +862,90 @@ ul{
 
         }
 
-        .work-img{
-          height:150px;
-          border-radius: 50%;
+        .portfolio-img{
+          height:100px;
           padding-bottom: 10px;
         }
 
         .gitHub{  
           color: #009975;
         }
+
+
+       
+
+        .webImg{
+          height: 380px;
+          display: inline-block;
+          margin-right: 10px;
+          margin-bottom: 10px;
+
+        }
+
+        .tata{
+          box-shadow: 0 16px 24px 0 rgb(32, 30, 43) ;
+        }
+
+        .per{
+          box-shadow: 0 16px 24px 0 rgb(3, 70, 54);     
+           }
+
+        .bloom{
+          box-shadow: 0 16px 24px 0 rgb(1, 25, 44);
+        }
+
+        .firstimg{
+          height: 550px;
+        }
+
+        .second{
+          height: 460px;
+        }
+
+        .tatafo-blog{
+          background-color: rgb(47, 46, 65);
+          padding: 100px 0;
+          color: white;
+
+        }
+
+        .personal-website{
+          background-color: #009975;
+          padding: 100px 0;
+          color: white;
+
+        }
+
+        .bloombank{
+          background-color: rgb(0, 48, 86);
+          padding: 100px 0;
+          color: white;
+
+
+        }
+
+        .white{
+          color: white;
+        }
+
+        .white-slim{
+          color: white;
+          font-weight: lighter;
+          width: 60%;
+          margin: 0 auto;
+        }
+
+        .hov:hover{
+          color: green;
+        }
+
+        .hovgit:hover{
+          color: brown;
+        }
+
+        .contact-hover:hover{
+         color: #009975;
+         background-color: #d2f3e0;
+        }
+
+      

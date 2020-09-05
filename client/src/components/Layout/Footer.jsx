@@ -1,9 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
+
 const Footer = () =>{
     return (
    <div className="bottom-container">
-   <a href="/contact" className="btn">CONTACT ME</a>     
        <br />
       <br />
      <a class="footer-link" href="https://twitter.com/OmoruyiOhuoba">twitter</a>

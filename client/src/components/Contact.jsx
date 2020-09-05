@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import NavBar from "./Layout/NavBar";
 
 const Contact = () => {

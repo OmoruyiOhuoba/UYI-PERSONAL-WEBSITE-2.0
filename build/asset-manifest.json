@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/main.ee0c05e2.chunk.js",
+    "main.js.map": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/main.ee0c05e2.chunk.js.map",
+    "runtime-main.js": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/runtime-main.1ff27478.js",
+    "runtime-main.js.map": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/runtime-main.1ff27478.js.map",
+    "static/js/2.f40b9a54.chunk.js": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/2.f40b9a54.chunk.js",
+    "static/js/2.f40b9a54.chunk.js.map": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/2.f40b9a54.chunk.js.map",
+    "index.html": "/UYI-PERSONAL-WEBSITE-2.0/client/index.html",
+    "precache-manifest.b203df95f88b80c37b1071423d608045.js": "/UYI-PERSONAL-WEBSITE-2.0/client/precache-manifest.b203df95f88b80c37b1071423d608045.js",
+    "service-worker.js": "/UYI-PERSONAL-WEBSITE-2.0/client/service-worker.js",
+    "static/js/2.f40b9a54.chunk.js.LICENSE.txt": "/UYI-PERSONAL-WEBSITE-2.0/client/static/js/2.f40b9a54.chunk.js.LICENSE.txt",
+    "static/media/BloombankImg-1.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/BloombankImg-1.017e14f2.png",
+    "static/media/BloombankImg-2.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/BloombankImg-2.72f6efe0.png",
+    "static/media/BloombankImg-4.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/BloombankImg-4.5e902dcf.png",
+    "static/media/mountain.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/mountain.fa31dcac.png",
+    "static/media/myAvatar.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/myAvatar.ead775fa.png",
+    "static/media/pencil-ruler.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/pencil-ruler.41b07de0.png",
+    "static/media/personal-1.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/personal-1.83747062.png",
+    "static/media/personal-2.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/personal-2.2bbf5560.png",
+    "static/media/personal-3.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/personal-3.a9e2af87.png",
+    "static/media/straightTree.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/straightTree.b3206b45.png",
+    "static/media/tatafoImg-1.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/tatafoImg-1.bc9b4bf9.png",
+    "static/media/tatafoImg-2.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/tatafoImg-2.95add20f.png",
+    "static/media/tatafoImg-3.png": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/tatafoImg-3.f3a532a5.png",
+    "static/media/uyi-face.JPG": "/UYI-PERSONAL-WEBSITE-2.0/client/static/media/uyi-face.84cc4e99.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ff27478.js",
+    "static/js/2.f40b9a54.chunk.js",
+    "static/js/main.ee0c05e2.chunk.js"
+  ]
+}
